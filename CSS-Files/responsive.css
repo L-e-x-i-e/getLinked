@@ -466,7 +466,7 @@
     }
 
     #hero {
-        background-image: url(./assets/mobile-hero-bg.png);
+        background-image: url(../assets/mobile-hero-bg.png);
         background-repeat: no-repeat;
         background-position-x: left;
         background-position-y: top;
@@ -500,43 +500,43 @@
     }
 
     #second-sec {
-        background-image: url(./assets/sec2-mobile-bg.png);
+        background-image: url(../assets/sec2-mobile-bg.png);
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
     }
 
     #third-sec {
-        background-image: url(./assets/sec3-mobile-bg.png);
+        background-image: url(../assets/sec3-mobile-bg.png);
         background-repeat: no-repeat;
         background-position: center;
         height: auto; 
     }
 
     #fourth-sec {
-        background-image: url(./assets/sec4-mobile-bg.png);
+        background-image: url(../assets/sec4-mobile-bg.png);
         background-repeat: no-repeat;
         background-position: center;
         height: auto; 
     }
 
     #fifth-sec {
-        background-image: url(./assets/sec5-mobile-bg.png);
+        background-image: url(../assets/sec5-mobile-bg.png);
         height: auto;
     }
 
     #sixth-sec {
-        background-image: url(./assets/sec6-mobile-bg-1.png);
+        background-image: url(../assets/sec6-mobile-bg-1.png);
         height: auto;
     }
 
     #seventh-sec {
-        background-image: url(./assets/sec7-mobile-bg.png);
+        background-image: url(../assets/sec7-mobile-bg.png);
         height: auto;
     }
 
     #eight-sec {
-        background-image: url(./assets/sec8-bg-mobile.png);
+        background-image: url(../assets/sec8-bg-mobile.png);
         height: 500px;
     }
 
@@ -641,7 +641,7 @@
     }
 
     #ninth-sec {
-        background-image: url(./assets/Frame\ 3.png);
+        background-image: url(../assets/Frame\ 3.png);
         height: auto;
     }
 
