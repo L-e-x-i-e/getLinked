@@ -66,7 +66,7 @@ body {
 /* Navigation Section ______________________________________________________________________________________________________*/
 
 #navigation {
-    background-image: url(/assets/Nav\ Bar.png);
+    background-image: url(./assets/Nav\ Bar.png);
 }
 
 .nav-bar {
@@ -126,7 +126,7 @@ body {
 /* Hero Section ______________________________________________________________________________________________________________*/
 
 #hero {
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: top;
@@ -226,7 +226,7 @@ body {
 /* Second Section ______________________________________________________________________________________________________________*/
 
 #second-sec {
-    background-image: url(/assets/Section-2-bg.png);
+    background-image: url(./assets/Section-2-bg.png);
     background-repeat: no-repeat;
     background-position: top;
     height: 600px;
@@ -280,7 +280,7 @@ body {
 /* Third Section ______________________________________________________________________________________________________________*/
 
 #third-sec {
-    background-image: url(/assets/sec-3-bg.png);
+    background-image: url(./assets/sec-3-bg.png);
     background-repeat: repeat;
     background-position: top;
     background-position-x: left;
@@ -296,7 +296,7 @@ body {
 /* Fourth Section ______________________________________________________________________________________________________________*/
 
 #fourth-sec {
-    background-image: url(/assets/sec4-bg.png);
+    background-image: url(./assets/sec4-bg.png);
     background-repeat: repeat;
     background-position: top;
     background-position-x: left;
@@ -335,7 +335,7 @@ body {
 /* Fifth Section ______________________________________________________________________________________________________________*/
 
 #fifth-sec {
-    background-image: url(/assets/sec5-bg.png);
+    background-image: url(./assets/sec5-bg.png);
     background-repeat: repeat;
     background-position: top;
     background-position-x: left;
@@ -381,7 +381,7 @@ body {
 /* Sixth Section ______________________________________________________________________________________________________________*/
 
 #sixth-sec {
-    background-image: url(/assets/sec6-bg.png);
+    background-image: url(./assets/sec6-bg.png);
     background-repeat: repeat;
     background-position: top;
     background-position-x: left;
@@ -492,7 +492,7 @@ body {
 /* Seventh Section ______________________________________________________________________________________________________________*/
 
 #seventh-sec {
-    background-image: url(/assets/sec7-bg.png);
+    background-image: url(./assets/sec7-bg.png);
     background-repeat: repeat;
     background-position: top;
     background-position-x: left;
@@ -632,7 +632,7 @@ body {
 /* Eight Section ______________________________________________________________________________________________________________*/
 
 #eight-sec {
-    background-image: url(/assets/sec8-bg.png);
+    background-image: url(./assets/sec8-bg.png);
     background-repeat: repeat;
     background-position: top;
     background-position-x: left;
@@ -743,7 +743,7 @@ body {
 /* Ninth Section ______________________________________________________________________________________________________________*/
 
 #ninth-sec {
-    background-image: url(/assets/sec9-bg.png);
+    background-image: url(./assets/sec9-bg.png);
     background-repeat: no-repeat;
     background-position: top;
     background-position-x: left;
@@ -818,7 +818,7 @@ body {
 /* Footer ______________________________________________________________________________________________________________*/
 
 #footer {
-    background-image: url(/assets/footer-bg-1.png);
+    background-image: url(./assets/footer-bg-1.png);
     background-repeat: repeat;
     background-position: top;
     background-position-x: left;
@@ -902,7 +902,7 @@ body {
 /* Contact Page ______________________________________________________________________________________________________________*/
 
 #contact-page {
-    background-image: url(/assets/Contact\ page\ 2.png);
+    background-image: url(./assets/Contact\ page\ 2.png);
     background-repeat: no-repeat;
     background-position: top;
     background-position-x: left;
