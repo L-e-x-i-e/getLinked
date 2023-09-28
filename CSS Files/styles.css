@@ -1,0 +1,1060 @@
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('../Fonts/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.woff2') format('woff2'),
+         url('../Fonts/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.woff') format('woff'),
+         url('../Fonts/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+}
+  
+
+:root {
+    /* Color Styles */
+    --primary-gradient: linear-gradient(90deg,#FE34B9, #903AFF);
+    --dark-bg-color: #150E28;
+    --light-text: #f9f9f9;
+    --primary-dark: #903AFF;
+    --primary-light: #FE34B9;
+    --coloured-text: #D434FE;
+
+    /* Text Styles */
+    --h1-text-size: 4rem;
+    --h2-text-size: 2rem;
+    --h3-text-size: 1.5rem;
+    --h4-text-size: 1.25rem;
+    --body-lg-text-size: 1.125rem;
+    --body-text-size: 1rem;
+    --body-sm-text-size: 0.875rem;
+    --small-text: 0.75rem;
+    --fw-bold: 700;
+    --fw-semi-bold: 600;
+    --fw-medium: 500;
+    --fw-regular: 400;
+    --mont-font: 'Montserrat', sans-serif;
+}
+
+/* General Styles*/
+
+body {
+    background-color: var(--dark-bg-color);
+}
+
+.container {
+    max-width: 1328px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-container {
+    max-width: 1328px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-main {
+    width: 172px;
+    height: 53px;
+    color: var(--light-text);
+    background-image: var(--primary-gradient);
+    font-family: var(--mont-font);
+    font-weight: 500;
+    font-size: var(--body-text-size);
+    text-align: center;
+}
+
+/* Navigation Section ______________________________________________________________________________________________________*/
+
+#navigation {
+    background-image: url(/assets/Nav\ Bar.png);
+}
+
+.nav-bar {
+    display: flex;
+    height: 140px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.nav-div {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.primary-nav-links {
+    display: flex;
+    gap: 56px;
+    color: var(--light-text);
+    font-family: var(--mont-font);
+    font-weight: 500;
+}
+
+
+
+/* Mobile Navigation Menu */
+
+.ham-menu {
+    display: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.mobile-navigation-menu {
+    display: none;
+}
+
+.nav-links.mobile {
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.nav-links.mobile li:last-child {
+    padding-right: 1rem;
+}
+
+.links-mobile-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+
+
+/* Hero Section ______________________________________________________________________________________________________________*/
+
+#hero {
+    background-image: url(/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    
+}
+
+.hero-section {
+    min-height: 830px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px 1fr;
+    grid-gap: 24px;
+}
+
+.hero-top {
+    grid-column: 1/7;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+}
+
+.hero-top h3 {
+    font-family: var(--mont-font);
+    font-size: 2.25rem;
+    color: var(--light-text);
+    font-style: italic;
+    font-weight: var(--fw-bold);
+    align-self: flex-end;
+}
+
+.hero-top div {
+    align-self: flex-end;
+}
+
+.hero-left {
+    grid-column: 1/4;
+    grid-row: 2;
+    padding-left: 8rem;
+    padding-top: 4rem;
+}
+
+.hero-left h1 {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 5rem;
+    color: var(--light-text);
+    font-weight: var(--fw-bold);
+}
+
+.hero-left-one {
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+}
+
+.hero-left-one div {
+    align-self: flex-end;
+    margin-right: 1.7rem;
+}
+
+.hero-left-two {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    min-width: 730px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-left p {
+    font-family: var(--mont-font);
+    font-size: 1.25rem;
+    color: var(--light-text);
+    font-weight: var(--fw-bold);
+}
+
+.hero-left :nth-child(3) {
+    margin-top: 0.5rem;
+}
+
+.hero-left :nth-child(4) {
+    margin-top: 2.5rem;
+}
+
+.hero-left :nth-child(5) {
+    margin-top: 5rem;
+}
+
+.hero-right { 
+    grid-column: 4/7;
+    grid-row: 2;
+    padding-top: 6rem;
+}
+
+
+
+/* Second Section ______________________________________________________________________________________________________________*/
+
+#second-sec {
+    background-image: url(/assets/Section-2-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 600px;
+    border-bottom: solid 1px white;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-sec-img {
+    width: 50%;
+    padding: 2rem;
+}
+
+.second-sec-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.second-sec-header {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 2rem;
+    font-weight: var(--fw-bold);
+    color: var(--light-text);
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.second-sec-header :nth-child(2) {
+    color: #D434FE;
+}
+
+.second-sec-text p {
+    font-family: var(--mont-font);
+    color: var(--light-text);
+    font-size: var(--body-text-size);
+    font-weight: var(--fw-regular);
+}
+
+
+
+
+/* Third Section ______________________________________________________________________________________________________________*/
+
+#third-sec {
+    background-image: url(/assets/sec-3-bg.png);
+    background-repeat: repeat;
+    background-position: top;
+    background-position-x: left;
+    height: 680px;
+    border-bottom: solid 1px white;
+}
+
+.third-section { 
+    display: flex;
+}
+
+
+/* Fourth Section ______________________________________________________________________________________________________________*/
+
+#fourth-sec {
+    background-image: url(/assets/sec4-bg.png);
+    background-repeat: repeat;
+    background-position: top;
+    background-position-x: left;
+    height: 860px;
+    border-bottom: solid 1px white;
+}
+
+.fourth-section {
+    display: flex;
+    padding-top: 4rem;
+}
+
+.fourth-sec-img {
+    width: 50%;
+    padding: 2rem;
+    align-self: center;
+}
+
+.fourth-sec-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.fourth-sec-text p {
+    font-family: var(--mont-font);
+    color: var(--light-text);
+    font-size: var(--body-text-size);
+    font-weight: var(--fw-regular);
+}
+
+
+/* Fifth Section ______________________________________________________________________________________________________________*/
+
+#fifth-sec {
+    background-image: url(/assets/sec5-bg.png);
+    background-repeat: repeat;
+    background-position: top;
+    background-position-x: left;
+    height: 1000px;
+    border-bottom: solid 1px white;
+}
+
+.fifth-section {
+    display: flex;
+    height: 100%;
+}
+
+.fifth-sec-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.fifth-sec-text p {
+    font-family: var(--mont-font);
+    color: var(--light-text);
+    font-size: var(--body-text-size);
+    font-weight: var(--fw-regular);
+}
+
+.faq-divs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #D434FE;
+    padding: 1rem 0rem;
+}
+
+.faq-divs :nth-child(2) {
+    font-size: 2rem;
+    color: #D434FE;
+}
+
+
+/* Sixth Section ______________________________________________________________________________________________________________*/
+
+#sixth-sec {
+    background-image: url(/assets/sec6-bg.png);
+    background-repeat: repeat;
+    background-position: top;
+    background-position-x: left;
+    height: 1800px;
+}
+
+.sixth-sec-header {
+    display: flex;
+    flex-direction: column;
+    color: var(--light-text);
+    text-align: center;
+    gap: 1rem;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.sixth-sec-header h3 {
+    font-family: 'ClashDisplay-Bold';
+    font-weight: var(--fw-bold);
+    font-size: 2rem;
+}
+
+.sixth-sec-header p {
+    font-family: var(--mont-font);
+    font-size: var(--body-text-size);
+    font-weight: var(--fw-regular);
+}
+
+.sixth-sec-body {
+    margin-top: 12rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.timeline-div {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 1rem;
+}
+
+.timeline-div-text {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.timeline-div h4 {
+    font-family: var(--mont-font);
+    font-size: 1.5rem;
+    color: #D434FE;
+    font-weight: var(--fw-bold);
+}
+
+.timeline-div p {
+    font-family: var(--mont-font);
+    font-size: 1rem;
+    color: var(--light-text);
+}
+
+.timeline-div-shapes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 100px;
+    border-left: 4px solid var(--coloured-text);
+}
+
+.ellipse {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: var(--coloured-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse h4 {
+    color: var(--light-text);
+}
+
+.timeline-div-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timeline-div-date-rev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+/* Seventh Section ______________________________________________________________________________________________________________*/
+
+#seventh-sec {
+    background-image: url(/assets/sec7-bg.png);
+    background-repeat: repeat;
+    background-position: top;
+    background-position-x: left;
+    height: 900px;   
+}
+
+.seventh-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 4rem 2rem;
+}
+
+.seventh-sec-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-self: flex-end;
+}
+
+.seventh-sec-header h4 {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 2rem;
+    color: var(--light-text);
+    font-weight: var(--fw-bold);
+}
+
+.seventh-sec-header p {
+    font-family: var(--mont-font);
+    font-size: var(--body-text-size);
+    color: var(--light-text);
+    font-weight: var(--fw-regular);
+    margin-top: 1rem;
+}
+
+.seventh-sec-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.awards {
+    display: flex;
+    gap: 1rem;
+    align-self: center;
+    margin-top: 10rem;
+}
+
+.awards-div-sm {
+    height: 280px;
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(212, 52, 254, 0.12);
+    border: 1px solid #D434FE;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.awards-div-sm :nth-child(1) {
+    position: absolute;
+    top: -80px;
+    align-self: center;
+}
+
+.awards-div-sm :nth-child(2) {
+    font-family: var(--mont-font);
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--light-text);
+    margin-top: 6rem;
+}
+
+.awards-div-sm :nth-child(3) {
+    font-family: var(--mont-font);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--light-text);
+}
+
+.awards-div-sm :nth-child(4) {
+    font-family: var(--mont-font);
+    font-size: 32px;
+    font-weight: 700;
+    color: #D434FE;
+    margin-top: 8px;
+}
+
+.awards-div-lg {
+    height: 320px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(144, 58, 255, 0.12);
+    border: 1px solid #903AFF;
+    padding: 0rem;
+    text-align: center;
+    position: relative;
+    border-radius: 8px;
+}
+
+.awards-div-lg :nth-child(1) {
+    position: absolute;
+    top: -150px;
+    align-self: center;
+    height: 296px;
+    width: 296px;
+}
+
+.awards-div-lg :nth-child(2) {
+    font-family: var(--mont-font);
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--light-text);
+    margin-top: 10rem;
+}
+
+.awards-div-lg :nth-child(3) {
+    font-family: var(--mont-font);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--light-text);
+}
+
+.awards-div-lg :nth-child(4) {
+    font-family: var(--mont-font);
+    font-size: 32px;
+    font-weight: 700;
+    color: #D434FE;
+    margin-top: 8px;
+}
+
+
+
+/* Eight Section ______________________________________________________________________________________________________________*/
+
+#eight-sec {
+    background-image: url(/assets/sec8-bg.png);
+    background-repeat: repeat;
+    background-position: top;
+    background-position-x: left;
+    height: 900px;
+    border-bottom: solid 1px white;  
+}
+
+.eight-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.sec8-header {
+    display: flex;
+    flex-direction: column;
+    color: var(--light-text);
+    padding: 4rem 2rem;
+    text-align: center;
+    gap: 1rem;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec8-header h3 {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 2rem;
+    color: var(--light-text);
+    font-weight: var(--fw-bold);
+}
+
+.sec8-header p {
+    font-family: var(--mont-font);
+    font-size: 1rem;
+    color: var(--light-text);
+    font-weight: var(--fw-regular);
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    width: 1255px;
+    height: 560px;
+    border: 1px solid var(--coloured-text);
+    padding: 5rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.partners-upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-upper div {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.partners-upper div img {
+    vertical-align: middle;
+}
+
+.partners-lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-lower div {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.partners-lower div img {
+    vertical-align: middle;
+}
+
+.lib-pay {
+    border-left: 2px solid var(--coloured-text);
+    border-right: 2px solid var(--coloured-text);
+}
+
+.paybox {
+    border-left: 2px solid var(--coloured-text);
+    border-right: 2px solid var(--coloured-text);
+}
+
+.horizontal-lines {
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal-lines hr {
+    width: 300px;
+    height: 2px;
+    background-color: var(--coloured-text);
+}
+
+
+
+
+/* Ninth Section ______________________________________________________________________________________________________________*/
+
+#ninth-sec {
+    background-image: url(/assets/sec9-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: left;
+    height: 1200px;
+}
+
+.ninth-section {
+    display: flex;
+    flex-direction: column;
+    color: var(--light-text);
+    gap: 3rem;
+    font-family: var(--mont-font);
+    padding: 2rem;
+}
+
+.ninth-sec-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.ninth-sec-header h3 {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 2rem;
+}
+
+.ninth-sec-header p {
+    font-size: var(--body-sm-text-size);
+    margin-top: 1.5rem;
+}
+
+.ninth-sec-div {
+    display: flex;
+    align-items: center;
+}
+
+.ninth-sec-text {
+    background-color: rgba(217, 217, 217, 0.03);
+    border: 1px solid #D434FE;
+    width: 50%;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    height: 610px;
+}
+
+.ninth-sec-img {
+    width: 50%;
+}
+
+.ninth-sec-text :nth-child(5) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.licensing {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+    font-weight: var(--fw-bold);
+}
+
+.bullet-pts {
+    display: flex;
+    gap: 1rem;
+    margin-top: 24px;
+}
+
+
+/* Footer ______________________________________________________________________________________________________________*/
+
+#footer {
+    background-image: url(/assets/footer-bg-1.png);
+    background-repeat: repeat;
+    background-position: top;
+    background-position-x: left;
+    height: auto;
+}
+
+.main-footer {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-upper {
+    display: flex;
+    gap: 4rem;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--mont-font);
+    font-size: 12px;
+    color: var(--light-text);
+    gap: 2rem;
+    width: 40%;
+}
+
+.terms-of-use {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.useful-links {
+    font-family: var(--mont-font);
+    color: var(--light-text);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 12px;
+    width: 25%;
+}
+
+.useful-links :nth-child(1) {
+    font-size: 14px;
+    color: var(--coloured-text);
+    font-weight: var(--fw-bold);
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: var(--mont-font);
+    color: var(--light-text);
+    font-size: 12px;
+    width: 25%;
+}
+
+.contact-us div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.copyright-info {
+    font-family: var(--mont-font);
+    color: var(--light-text);
+    font-size: 12px; 
+    text-align: center;
+}
+
+
+/* Contact Page ______________________________________________________________________________________________________________*/
+
+#contact-page {
+    background-image: url(/assets/Contact\ page\ 2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: left;
+    height: 700px;
+}
+
+.contact-page-block {
+    display: flex;
+    padding: 8rem 4rem;
+}
+
+
+.contact-page-text {
+    display: flex;
+    flex-direction: column;
+    color: var(--light-text);
+    font-family: var(--mont-font);
+    font-size: 1rem;
+    gap: 1rem;
+    width: 50%;
+}
+
+.contact-page-text h3 {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 2rem;
+    color: var(--coloured-text);
+}
+
+.contact-page-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-page-links p {
+    color: var(--coloured-text);
+    font-weight: var(--fw-bold);
+}
+
+.contact-page-links-div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+
+.contact-form-header {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 20px;  
+    color: var(--coloured-text);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input-style {
+    font-family: var(--mont-font);
+    font-size: 14px;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+}
+
+input::placeholder {
+    color: var(--light-text);
+}
+
+.textarea::placeholder {
+    color: var(--light-text);
+}
+
+.textarea {
+    font-family: var(--mont-font);
+    font-size: 14px;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    height: 100px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+label {
+    font-size: 12px;
+    font-family: var(--mont-font);
+    color: var(--light-text);
+}
+
+.input-style {
+    border: 1px solid white;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.input-group {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.register-form-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.register-form-header h5 {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 20px;  
+    color: var(--coloured-text);
+}
+
+.register-form-header h4 {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 16px;  
+    color: var(--light-text);
+}
+
+.register-form-header-2 {
+    display: flex;
+    color: var(--light-text);
+    font-size: 14px;
+    font-family: var(--mont-font);
+}
+
+.register-page-block {
+    display: flex;
+    padding: 4rem 4rem;
+}
+
+
+
